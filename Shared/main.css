@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {    
+    font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+
+    transition: 0.25s ease;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    border: none;
+
+    padding: 1%;
+}
+
+input[type="text"]:not(.base) {
+    border: none;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+    height: 5vh;
+
+    padding: 1%;
+}
+
+.answer {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+
+    font-size: 1.5rem;
+
+    height: 5vh;
+    min-width: 5vw;
+
+    padding: 1%;
+
+    text-align: center;
+}
+
+.base {
+    border: none;
+
+    height: 5vh;
+    min-width: 5vw;
+
+    padding: 1%;
+}
+
+.base-first {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.base-last {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.body-dark {
+    background-color: black;
+}
+
+.body-dark button {
+    background-color: rgba(0, 0, 100, 0.25);
+}
+
+.body-dark button:hover {
+    background-color: rgba(0, 0, 100, 0.5);
+}
+
+.body-dark input[type="text"] {
+    background-color: rgba(0, 0, 0, 0.75);
+
+    caret-color: white;
+
+    color: white;
+}
+
+.body-dark > * {
+    color: white;
+}
+
+.body-dark .answer {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.body-dark .header {
+    background-color: rgba(0, 0, 100, 0.75);
+}
+
+.body-dark .maths {
+    background-color: rgba(0, 0, 100, 0.5);
+}
+
+.body-dark .weather {
+    background-color: rgba(0, 0, 100, 0.5);
+}
+
+.body-light {
+    background-color: white;
+}
+
+.body-light button {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.body-light button:hover {
+    background-color: rgba(0, 255, 255, 0.75);
+}
+
+.body-light input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+.body-light .answer {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+.body-light .header {
+    background-color: rgba(0, 255, 255, 0.75);
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+.body-light .maths {
+    background-color: rgba(0, 255, 255, 0.5);
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+.body-light .weather {
+    background-color: rgba(0, 255, 255, 0.5);
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+.body-light > * {
+    color: black;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 24px;
+
+    height: 15vh;
+
+    margin: 0.5%;
+}
+
+.maths {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border-radius: 24px;
+
+    flex: 1;
+
+    height: 15vh;
+    
+    margin: 0.5%;
+}
+
+.maths-row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.weather {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 24px;
+
+    margin: 0.5%;
+
+    min-height: 15vh;
+
+    text-align: center;
+}
+
+#temperature {
+    cursor: pointer;
+}
+
+#theme-changer {
+    border-top-right-radius: 24px;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 5vw;
+    height: 5vw;
+}
