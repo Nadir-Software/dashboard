@@ -151,7 +151,7 @@ input[type="text"]:not(.base) {
 
     height: 15vh;
 
-    margin: 0.5%;
+    margin: 1%;
 }
 
 .maths {
@@ -166,7 +166,8 @@ input[type="text"]:not(.base) {
 
     height: 15vh;
     
-    margin: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 .maths-row {
@@ -174,6 +175,8 @@ input[type="text"]:not(.base) {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    margin: 1%;
 }
 
 .small {
@@ -188,7 +191,7 @@ input[type="text"]:not(.base) {
 
     border-radius: 24px;
 
-    margin: 0.5%;
+    margin: 1%;
 
     min-height: 15vh;
 

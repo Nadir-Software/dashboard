@@ -5,6 +5,7 @@ var theme = localStorage.getItem("theme") || "dark";
 function setTheme(theme) {
     if (theme == "dark") {
         document.body.className = "body-dark";
+
         themeChanger.onclick = function() {
             setTheme("light");
         }
@@ -16,6 +17,7 @@ function setTheme(theme) {
 
     else {
         document.body.className = "body-light";
+
         themeChanger.onclick = function() {
             setTheme("dark");
         }
