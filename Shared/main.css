@@ -165,9 +165,6 @@ input[type="text"]:not(.base) {
     flex: 1;
 
     height: 15vh;
-    
-    margin-left: 0.5%;
-    margin-right: 0.5%;
 }
 
 .maths-row {
@@ -196,6 +193,14 @@ input[type="text"]:not(.base) {
     min-height: 15vh;
 
     text-align: center;
+}
+
+#maths-first {
+    margin-right: 0.5%;
+}
+
+#maths-last {
+    margin-left: 0.5%;
 }
 
 #temperature {
